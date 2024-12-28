@@ -1,6 +1,6 @@
 @font-face {
   font-family: inter;
-  src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 body {
   background-color: #141414;
@@ -11,42 +11,44 @@ body {
   align-items: center;
 }
 section {
-  height: 400px;
-  width: 250px;
+  height: 550px;
+  width: 350px;
   background-color: #1f1f1f;
   border-radius: 1vh;
   display: flex;
   margin: auto;
 }
 #menu {
-  height: 350px;
-  width: 200px;
+  height: 500px;
+  width: 300px;
   margin: auto;
   display: grid;
-  grid-template-rows: 28% 20% 52%;
+  grid-template-rows: 33% 20% 47%;
 }
 img {
   border-radius: 100%;
-  height: 60px;
+  height: 100px;
   margin: auto;
 }
 p {
   font-family: inter;
   text-align: center;
+  font-weight: bold;
 }
 #name {
   color: #ffffff;
   margin: 0;
+  font-size: 20px;
 }
 #living {
-  font-size: 8px;
+  font-size: 12px;
   color: #c4f82a;
   margin: 5px;
 }
 #description {
-  font-size: 8px;
+  font-size: 10px;
   color: #ffffff;
-  margin: 10px;
+  /* margin: 10px; */
 }
 #image {
   margin: auto;
@@ -65,9 +67,9 @@ p {
 button {
   width: 100%;
   margin: auto;
-  padding: 8px;
+  padding: 12px;
   font-family: inter;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
   color: #ffffff;
   background-color: #333333;
@@ -75,8 +77,14 @@ button {
   border: 0px;
 }
 button:hover {
-  background-color: #c4f82a;
   color: #000000;
+  animation: bgbtn 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes bgbtn {
+  100% {
+    background-color: #c4f82a;
+  }
 }
 button:active {
   background-color: #425310;
