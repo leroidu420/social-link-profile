@@ -14,7 +14,7 @@ section {
   height: 550px;
   width: 350px;
   background-color: #1f1f1f;
-  border-radius: 1vh;
+  border-radius: 15px;
   display: flex;
   margin: auto;
 }
