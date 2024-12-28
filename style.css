@@ -9,18 +9,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 720px;
 }
 section {
-  height: 70vh;
-  width: 40vh;
+  height: 400px;
+  width: 250px;
   background-color: #1f1f1f;
   border-radius: 1vh;
   display: flex;
+  margin: auto;
 }
 #menu {
-  height: 62vh;
-  width: 32vh;
+  height: 350px;
+  width: 200px;
   margin: auto;
   display: grid;
   grid-template-rows: 28% 20% 52%;
@@ -46,7 +46,7 @@ p {
 #description {
   font-size: 8px;
   color: #ffffff;
-  margin: 1vh;
+  margin: 10px;
 }
 #image {
   margin: auto;
@@ -65,7 +65,7 @@ p {
 button {
   width: 100%;
   margin: auto;
-  padding: 1.5vh;
+  padding: 8px;
   font-family: inter;
   font-size: 8px;
   font-weight: bold;
